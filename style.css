@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header h1:hover {
+    color: red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    color: blanchedalmond;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav ul li {
+    margin-right: 20px;
+    list-style-type: none;
+    
+}
+
+nav ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.active  {
+    color: red;
+}
+
+.active  a {
+    color: white;
+}
+
+.active1 {
+    background-color: white;
+    color: red;
+}
+
+.li-colors {
+    color: red;
+}
+
+#image {
+    background: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 80vh;
+    background-size: cover;
+}
+
+#text {
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+#text p {
+    margin-top: 10px;
+}
+
+
